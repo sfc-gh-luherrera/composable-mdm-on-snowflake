@@ -14,6 +14,7 @@ A vendor-neutral blueprint, architecture diagrams, and a **tested reference impl
 | [`docs/REFERENCE_REVIEW.md`](docs/REFERENCE_REVIEW.md) | Review of a public Snowflake-native MDM project, plus a check of the latest Snowflake features this design uses (verified Nov 2026) |
 | [`implementation/`](implementation) | SQL (Dynamic Tables, SQL procedures, Hybrid Table, semantic view, triggered task, Cortex AI), a Streamlit stewardship console, a golden-dataset generator and a deploy/test runner |
 | [`templates/`](templates) | Capability record, Java event assessment, cutover evidence pack, open decisions register |
+| Presentation | 14-slide executive deck (Google Slides, internal): https://docs.google.com/presentation/d/1n-zecFT-YquRpWOvmspn9uBoOPePH3s4W32BqkFymsg/edit |
 | [`prompts/`](prompts) | Cortex Code prompt patterns for inventory, behavioral extraction, Java decomposition, build and reconciliation |
 
 ## The approach in one picture
