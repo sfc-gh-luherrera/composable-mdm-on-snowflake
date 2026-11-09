@@ -57,3 +57,7 @@ Last run: **29/29 checks passed** ([results](implementation/tests/RESULTS.md)). 
 - Feature status was checked against Snowflake documentation in November 2026. The Openflow Connector for Snowflake to Kafka (outbound) is **Preview**. Hybrid Tables are GA on AWS and Azure and in Preview on GCP. Re-check before each gate.
 - The reference implementation is a POC starting point for one domain, not a production MDM product. See the hardening checklist in `docs/IMPLEMENTATION.md`.
 - The Streamlit console is a starter; it has been syntax-checked but not deployed as part of the automated tests.
+
+## Acknowledgements
+
+This work builds on [zbrainiac-labs/MasterDataManagement](https://github.com/zbrainiac-labs/MasterDataManagement) by Marcel Däppen ([article](https://medium.com/@marcel.daeppen_74522/master-data-management-mdm-with-snowflake-native-features-01b27456039f)), a Snowflake-native MDM reference that served as the base for this kit: its Dynamic Table pipeline, matching signals, survivorship approach, Kafka in/out engine, cluster split with suppressions, Streamlit viewers and test-data generator shaped the design here. The code in this repository is an independent re-implementation (the original repository has no LICENSE file, so no code was copied) that extends that base with stable XREF, versioned rules, a PII-free decision ledger, ledger-based unmerge, governed commands and erasure.

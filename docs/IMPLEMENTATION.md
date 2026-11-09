@@ -2,6 +2,10 @@
 
 A compact, **tested** Snowflake-native implementation of the mastering model in the blueprint, for one domain (Account / organization). It is a starting point for a proof of concept — not a production product. It is intentionally SQL-first (SQL scripting procedures, Dynamic Tables, views) so it is easy to read, review and port to dbt or DCM Projects.
 
+## Base work
+
+This work builds on [zbrainiac-labs/MasterDataManagement](https://github.com/zbrainiac-labs/MasterDataManagement) by Marcel Däppen ([article](https://medium.com/@marcel.daeppen_74522/master-data-management-mdm-with-snowflake-native-features-01b27456039f)), a Snowflake-native MDM reference that served as the base for this kit: its Dynamic Table pipeline, matching signals, survivorship approach, Kafka in/out engine, cluster split with suppressions, Streamlit viewers and test-data generator shaped the design here. The code in this repository is an independent re-implementation (the original repository has no LICENSE file, so no code was copied) that extends that base with stable XREF, versioned rules, a PII-free decision ledger, ledger-based unmerge, governed commands and erasure. See [REFERENCE_REVIEW.md](REFERENCE_REVIEW.md) for what was reused and what was extended.
+
 ## What it demonstrates
 
 | Blueprint requirement | Where | Test |

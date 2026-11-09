@@ -4,7 +4,7 @@
 
 `github.com/zbrainiac-labs/MasterDataManagement` (cloned and reviewed November 2026; HEAD `05bac21`). It contains a batch pipeline on Dynamic Tables deployed with DCM (`bulk/`) and a near-real-time Python engine on Kafka + Postgres targeting SPCS (`nrt/`), plus a synthetic data generator and a regression suite.
 
-**Licensing.** The repository has no LICENSE file, so its code is not redistributed here. This repo contains an independent implementation; the reviewed project is credited as a pattern source.
+**Licensing.** The repository has no LICENSE file, so its code is not redistributed here. It is the **base work** for this kit: this repo contains an independent re-implementation of its patterns, extended to close the gaps below. Credit: Marcel Däppen / zbrainiac-labs.
 
 ### What was tested
 
