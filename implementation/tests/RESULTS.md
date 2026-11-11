@@ -1,6 +1,6 @@
 # Test results
 
-Run: 2026-11-05 15:51 — **29/29 passed** (account `SNOWHOUSE` AWS us-west-2, warehouse SNOWHOUSE, golden N=2000)
+Run: 2026-11-05 15:51 — **29/29 passed** (Snowflake on AWS, golden N=2000)
 
 | ID | Check | Result | Detail |
 |---|---|---|---|
